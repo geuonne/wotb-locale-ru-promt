@@ -1,9 +1,13 @@
-# WoT Blitz - `insert your mod name here`
+# WoT Blitz - Locale RU GoogleTranslate
 
-`insert any media here`
+![](public/media/1.jpg)
+![](public/media/2.jpg)
+![](public/media/3.jpg)
+![](public/media/4.jpg)
+![](public/media/5.jpg)
+![](public/media/6.jpg)
 
 ## Description
-`Here go mod descriptions - the content that you can provide in various mod sites as well. Specify the links to your mod descriptions from public/desc directory here`
 * [en](public/desc/en.txt)
 * [ru](public/desc/ru.txt)
 
@@ -22,19 +26,14 @@ Dependencies
 - [`dvpl` converter](https://github.com/Maddoxkkm/dvpl_converter)
 - `make`
 - `coreutils` (or any other similar utilites)
+- [`translate-shell`](https://github.com/soimort/translate-shell)
+Optional
+- [`yamllint`](https://yamllint.readthedocs.io) (to help troubleshooting)
 
-```sh
-make [WMOD_PLATFORM=(android|pc|any)] [WMOD_PUBLISHER=(wg|lg|any)]
-```
-See [Makefile](Makefile) for details.
+wip
 
 ### Install from source
-```sh
-make [WMOD_PLATFORM=...] [WMOD_PUBLISHER=...] [WMOD_INSTALLDIR=<your_path_to_game>] install
-```
+wip
 
 ## Distribute
-```sh
-make [WMOD_TARGETPLATFORM=...] [WMOD_PUBLISHER=...] dist
-```
-See [Makefile](Makefile) for available packaging methods.
+wip

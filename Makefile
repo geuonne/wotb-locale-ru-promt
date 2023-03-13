@@ -18,7 +18,7 @@ MAKE = make
 
 # Mod constants
 # Mod full name
-WMOD_TITLE = Insert your mod name here
+WMOD_TITLE = Locale RU PROMT
 # One or more of: (pc|android|ios|any)
 WMOD_INITIALTARGETPLATFORM = any
 # (N.N.N[+|[-N.N.N]]|any)
@@ -87,9 +87,11 @@ all: build
 build: $(DEPS)
 	$(MKDIR) -p $(BUILDPLATFORMDIR)
 	$(CP) -R src/* $(BUILDPLATFORMDIR)
+	$(CP) $(TOOLSDIR)/promt_ru.yaml $(BUILDPLATFORMDIR)/Strings/ru.yaml
 ifeq ($(WMOD_DVPLIZE), y)
 	$(CD) $(BUILDPLATFORMDIR) && $(DVPL) compress
 endif
+
 
 install: build
 	$(CP) -R $(BUILDPLATFORMDIR)/** $(WMOD_INSTALLDIR)
