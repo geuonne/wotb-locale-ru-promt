@@ -1,0 +1,642 @@
+Header:
+    version: 153
+ImportedPackages:
+- "~res:/UI/Screens/FontsLocales/Fonts.ar.yaml"
+- "~res:/UI/Screens/FontsLocales/Fonts.th.yaml"
+- "~res:/UI/Screens/FontsLocales/Fonts.vi.yaml"
+- "~res:/UI/Screens/FontsLocales/Fonts.zh-Hant.yaml"
+- "~res:/UI/Screens/FontsLocales/Fonts.zh-Hans.yaml"
+- "~res:/UI/Screens/FontsLocales/Fonts.ko.yaml"
+- "~res:/UI/Screens/FontsLocales/Fonts.ja.yaml"
+- "~res:/UI/Screens/FontsColors.yaml"
+StyleSheets:
+-   selectors:
+    - ".header0"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 30.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".header1"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 25.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".header2"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 23.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".header3"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 21.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".header4"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 19.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".header5"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 17.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".text0"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondC.ttf"
+        text-fontSize: 25.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".text1"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondC.ttf"
+        text-fontSize: 21.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".text2"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondC.ttf"
+        text-fontSize: 19.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".text2-small"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondC.ttf"
+        text-fontSize: 17.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".text3-small"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondC.ttf"
+        text-fontSize: 14.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".text2-small.de"
+    - ".text2-small.es"
+    - ".text2-small.fi"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondC.ttf"
+        text-fontSize: 16.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".text-mono"
+    properties:
+        text-fontPath: "~res:/Fonts/arialmb.ttf"
+        text-fontSize: 17.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".text-cond-bold-30-all-locals"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 30.000000
+-   selectors:
+    - ".fs-90"
+    properties:
+        text-fontSize: 90.000000
+-   selectors:
+    - ".fs-56"
+    properties:
+        text-fontSize: 56.000000
+-   selectors:
+    - ".fs-50"
+    properties:
+        text-fontSize: 50.000000
+-   selectors:
+    - ".fs-30"
+    properties:
+        text-fontSize: 30.000000
+-   selectors:
+    - ".fs-25"
+    properties:
+        text-fontSize: 25.000000
+-   selectors:
+    - ".fs-21"
+    properties:
+        text-fontSize: 21.000000
+-   selectors:
+    - ".fs-19"
+    properties:
+        text-fontSize: 19.000000
+-   selectors:
+    - ".fs-17"
+    properties:
+        text-fontSize: 17.000000
+-   selectors:
+    - ".fs-16"
+    properties:
+        text-fontSize: 16.000000
+-   selectors:
+    - ".fs-15"
+    properties:
+        text-fontSize: 15.000000
+-   selectors:
+    - ".fs-13"
+    properties:
+        text-fontSize: 13.000000
+-   selectors:
+    - ".ru.bold"
+    - ".tr.bold"
+    - ".pt.bold"
+    - ".pl.bold"
+    - ".it.bold"
+    - ".fr.bold"
+    - ".fi.bold"
+    - ".es.bold"
+    - ".en.bold"
+    - ".en_GB.bold"
+    - ".de.bold"
+    - ".es.bold"
+    - ".cs.bold"
+    - ".hi.bold"
+    - ".uk.bold"
+    - ".rt.bold"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+-   selectors:
+    - ".ru.regular"
+    - ".tr.regular"
+    - ".pt.regular"
+    - ".pl.regular"
+    - ".it.regular"
+    - ".fr.regular"
+    - ".fi.regular"
+    - ".es.regular"
+    - ".en.regular"
+    - ".en_GB.regular"
+    - ".de.regular"
+    - ".es.regular"
+    - ".cs.regular"
+    - ".hi.regular"
+    - ".uk.regular"
+    - ".rt.regular"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondC.ttf"
+-   selectors:
+    - ".bold-140"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 140.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".text-color-faded-white"
+    properties:
+        text-color: [1.000000, 1.000000, 1.000000, 0.600000]
+        text-colorInheritType: "COLOR_IGNORE_PARENT"
+-   selectors:
+    - ".fs-11"
+    properties:
+        text-fontSize: 11.000000
+-   selectors:
+    - ".header1.pl"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 23.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".header1.fr"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 23.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".header1.it"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 23.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".header1.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Bold.ttf"
+        text-fontSize: 23.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 0.650000
+        text-descendScale: 0.650000
+-   selectors:
+    - ".header1.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Bd.otf"
+-   selectors:
+    - ".header1.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".header1.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Bold.ttf"
+        text-fontSize: 27.000000
+-   selectors:
+    - ".header1.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui_bold.ttf"
+        text-fontSize: 23.000000
+-   selectors:
+    - ".header1.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".header1.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".header0.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Bold.ttf"
+        text-ascendScale: 0.650000
+        text-descendScale: 0.650000
+-   selectors:
+    - ".header0.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Bd.otf"
+-   selectors:
+    - ".header0.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".header0.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Bold.ttf"
+-   selectors:
+    - ".header0.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui_bold.ttf"
+-   selectors:
+    - ".header0.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".header0.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".header2.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Bold.ttf"
+        text-ascendScale: 0.650000
+        text-descendScale: 0.650000
+-   selectors:
+    - ".header2.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Bd.otf"
+-   selectors:
+    - ".header2.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".header2.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Bold.ttf"
+        text-fontSize: 25.000000
+-   selectors:
+    - ".header2.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui_bold.ttf"
+        text-fontSize: 21.000000
+-   selectors:
+    - ".header2.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".header2.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".header3.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Bold.ttf"
+        text-ascendScale: 0.700000
+        text-descendScale: 0.500000
+-   selectors:
+    - ".header3.it"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 20.000000
+-   selectors:
+    - ".header3.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Bd.otf"
+        text-fontSize: 20.000000
+-   selectors:
+    - ".header3.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".header3.pl"
+    properties:
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 20.000000
+-   selectors:
+    - ".header3.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Bold.ttf"
+        text-fontSize: 23.000000
+-   selectors:
+    - ".header3.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui_bold.ttf"
+        text-fontSize: 19.000000
+-   selectors:
+    - ".header3.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".header3.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".header4.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Bold.ttf"
+        text-ascendScale: 0.650000
+        text-descendScale: 0.650000
+-   selectors:
+    - ".header4.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Bd.otf"
+-   selectors:
+    - ".header4.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".header4.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Bold.ttf"
+        text-fontSize: 22.000000
+-   selectors:
+    - ".header4.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui_bold.ttf"
+        text-fontSize: 17.000000
+-   selectors:
+    - ".header4.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".header4.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".header5.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Bold.ttf"
+        text-ascendScale: 0.700000
+        text-descendScale: 0.400000
+-   selectors:
+    - ".header5.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Bd.otf"
+-   selectors:
+    - ".header5.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".header5.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Bold.ttf"
+        text-fontSize: 19.000000
+-   selectors:
+    - ".header5.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui_bold.ttf"
+        text-fontSize: 15.000000
+-   selectors:
+    - ".header5.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".header5.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".text0.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Regular.ttf"
+        text-ascendScale: 0.650000
+        text-descendScale: 0.650000
+-   selectors:
+    - ".text0.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Md.otf"
+-   selectors:
+    - ".text0.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".text0.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Regular.ttf"
+        text-fontSize: 27.000000
+-   selectors:
+    - ".text0.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui.ttf"
+        text-fontSize: 23.000000
+-   selectors:
+    - ".text0.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".text0.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".text1.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Regular.ttf"
+        text-ascendScale: 0.650000
+        text-descendScale: 0.750000
+-   selectors:
+    - ".text1.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Md.otf"
+-   selectors:
+    - ".text1.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".text1.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Regular.ttf"
+        text-fontSize: 23.000000
+-   selectors:
+    - ".text1.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui.ttf"
+        text-fontSize: 19.000000
+-   selectors:
+    - ".text1.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".text1.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".text2.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Regular.ttf"
+        text-ascendScale: 0.650000
+        text-descendScale: 0.650000
+-   selectors:
+    - ".text2.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Md.otf"
+-   selectors:
+    - ".text2.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".text2.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Regular.ttf"
+        text-fontSize: 22.000000
+-   selectors:
+    - ".text2.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui.ttf"
+        text-fontSize: 17.000000
+-   selectors:
+    - ".text2.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".text2.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".text2-small.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Regular.ttf"
+        text-fontSize: 16.000000
+        text-ascendScale: 0.650000
+        text-descendScale: 0.650000
+-   selectors:
+    - ".text2-small.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Md.otf"
+        text-fontSize: 16.000000
+-   selectors:
+    - ".text2-small.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+        text-fontSize: 16.000000
+-   selectors:
+    - ".text2-small.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Regular.ttf"
+        text-fontSize: 19.000000
+-   selectors:
+    - ".text2-small.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui.ttf"
+        text-fontSize: 15.000000
+-   selectors:
+    - ".text2-small.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+        text-fontSize: 16.000000
+-   selectors:
+    - ".text2-small.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+        text-fontSize: 16.000000
+-   selectors:
+    - ".text3-small.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Regular.ttf"
+        text-ascendScale: 0.650000
+        text-descendScale: 0.650000
+-   selectors:
+    - ".text3-small.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Md.otf"
+-   selectors:
+    - ".text3-small.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".text3-small.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Regular.ttf"
+        text-fontSize: 16.000000
+-   selectors:
+    - ".text3-small.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui.ttf"
+        text-fontSize: 12.000000
+-   selectors:
+    - ".text3-small.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".text3-small.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
+-   selectors:
+    - ".bold-140.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Bold.ttf"
+-   selectors:
+    - ".bold-140.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Bd.otf"
+-   selectors:
+    - ".bold-140.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".bold-140.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Bold.ttf"
+-   selectors:
+    - ".bold-140.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui_bold.ttf"
+-   selectors:
+    - ".bold-140.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".bold-140.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"

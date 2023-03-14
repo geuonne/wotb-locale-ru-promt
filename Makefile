@@ -87,7 +87,7 @@ all: build
 build: $(DEPS)
 	$(MKDIR) -p $(BUILDPLATFORMDIR)
 	$(CP) -R src/* $(BUILDPLATFORMDIR)
-	$(CP) $(TOOLSDIR)/promt_ru.yaml $(BUILDPLATFORMDIR)/Strings/ru.yaml
+	$(CP) $(TOOLSDIR)/rt.yaml $(BUILDPLATFORMDIR)/Strings/rt.yaml
 ifeq ($(WMOD_DVPLIZE), y)
 	$(CD) $(BUILDPLATFORMDIR) && $(DVPL) compress
 endif
