@@ -1,0 +1,47 @@
+ar:
+    eula:
+        eu: "en"
+    sound: "arb"
+sk: "cs"
+es:
+    news:
+        us: "es-mx"
+    eula:
+        us: "es-mx"
+pt:
+    sound: "pbr"
+    news: 
+        us: "pt-br"
+    eula:
+        us: "pt-br"
+    PT:
+        news:
+            eu: "pt"
+    steam_init_txn: "pt-br"
+tr:
+    vigo: "tr"
+zh: 
+    sound: "cn"
+    news: 
+        sg: "zh-tw"
+    eula:
+        sg: "zh-tw"
+    Hans:
+        steam_init_txn: "zh-cn"
+    Hant:
+        steam_init_txn: "zh-tw"
+en:
+    GB:
+        sound: "en_gb"
+        game: "en_GB"
+        vigo: "en-GB"
+hi: 
+    sound: "en"
+rt:
+    sound: "ru"
+    eula: "ru"
+    news: "ru"
+    vigo: "ru"
+    game: "rt"
+    payment: "ru"
+    steam_init_txn: "ru"
